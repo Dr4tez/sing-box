@@ -59,7 +59,7 @@ type LegacyWireGuardPeer struct {
 type WireGuardAmnezia struct {
 	JC   int    `json:"jc,omitempty"`
 	JMin int    `json:"jmin,omitempty"`
-	JMax int    `json:"jmax,omitempty"`Add commentMore actions
+	JMax int    `json:"jmax,omitempty"`
 	S1   int    `json:"s1,omitempty"`
 	S2   int    `json:"s2,omitempty"`
 	H1   uint32 `json:"h1,omitempty"`
