@@ -41,7 +41,7 @@ type PeerOptions struct {
 
 type AmneziaOptions struct {
 	JC   int
-	JMin intAdd commentMore actions
+	JMin int
 	JMax int
 	S1   int
 	S2   int
