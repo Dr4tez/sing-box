@@ -78,7 +78,7 @@ func NewOutbound(ctx context.Context, router adapter.Router, logger log.ContextL
 	if options.Amnezia != nil {
 		amnezia = &wireguard.AmneziaOptions{
 			JC:   options.Amnezia.JC,
-			JMin: options.Amnezia.JMin,Add commentMore actions
+			JMin: options.Amnezia.JMin,
 			JMax: options.Amnezia.JMax,
 			S1:   options.Amnezia.S1,
 			S2:   options.Amnezia.S2,
